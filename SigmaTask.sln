@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaTask", "SigmaTask\SigmaTask.csproj", "{814D13B8-45A9-4314-B255-15B7CFEC090C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SigmaTask", "SigmaTask\SigmaTask.csproj", "{814D13B8-45A9-4314-B255-15B7CFEC090C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SigmaTask.Test", "SigmaTask.Test\SigmaTask.Test.csproj", "{D21E3B41-59EC-4CD2-9C42-3E23C623F556}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{814D13B8-45A9-4314-B255-15B7CFEC090C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{814D13B8-45A9-4314-B255-15B7CFEC090C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{814D13B8-45A9-4314-B255-15B7CFEC090C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21E3B41-59EC-4CD2-9C42-3E23C623F556}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21E3B41-59EC-4CD2-9C42-3E23C623F556}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21E3B41-59EC-4CD2-9C42-3E23C623F556}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21E3B41-59EC-4CD2-9C42-3E23C623F556}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
