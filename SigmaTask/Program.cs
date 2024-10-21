@@ -2,6 +2,8 @@ using FluentValidation;
 using Microsoft.EntityFrameworkCore;
 using SigmaTask.Data;
 using SigmaTask.Data.Entities;
+using SigmaTask.Repositories;
+using SigmaTask.Services;
 using SigmaTask.Validators;
 using System.Reflection;
 
@@ -21,6 +23,8 @@ options.UseSqlite(builder.Configuration.GetConnectionString("WebApiDatabase")));
 
 //app cores
 builder.Services.AddScoped<IValidator<Candidate>, CandidateValidator>();
+builder.Services.AddScoped<ICandidateRepository, CandidateRepository>();
+builder.Services.AddScoped<ICandidateService, CandidateService>();
 
 
 var app = builder.Build();
